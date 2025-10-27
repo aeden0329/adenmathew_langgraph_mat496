@@ -49,3 +49,17 @@ rather than waiting for the full response.
 I also explored how streaming improves interactivity and responsiveness in chatbots or agent workflows.
 
 LESSON 2:
+I learned how to set and use breakpoints in LangGraph Studio to pause graph execution and inspect state.
+I used these breakpoints to debug my nodes interactively and understand the data flow more clearly.
+
+LESSON 3:
+I learned about the key tools and documentation links for debugging and improving LangGraph workflows.
+I learned where to find resources for editing state, human feedback, and graph evaluation to enhance my projects.
+
+LESSON 4:
+I learned that breakpoints are really useful for human approval, for debugging and for editing graph state although often times it is helpful to interrupt the graph dynamically itself, which can be achieved using NodeInterrput
+Dynamic breakpoints have an advantage over breakpoints as they can enable, disable or move breakpoints while the program is running without restarting the session.
+
+LESSON 5:
+I learned how to use time travel in LangGraph Studio to go back to previous states of graph execution.
+I used this feature to replay and debug earlier steps, helping me understand how the graph evolved over time.
