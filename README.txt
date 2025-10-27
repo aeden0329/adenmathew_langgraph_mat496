@@ -39,3 +39,13 @@ but you can specify reducers like operator.add or custom functions so updates ar
  LESSON 6:
 I learned how to extend the chatbot’s summarization logic using external memory (like a file or database) to persist conversation history beyond a single session. 
 I also saw how to integrate a custom checkpointer for saving and loading summaries, enabling long-term memory for your chatbot.
+
+MODULE 3:
+
+LESSON 1:
+
+In this lesson, I learned how to use streaming with LangGraph to receive model outputs in real-time as they’re generated,
+rather than waiting for the full response. 
+I also explored how streaming improves interactivity and responsiveness in chatbots or agent workflows.
+
+LESSON 2:

@@ -1,8 +1,3 @@
-from dotenv import load_dotenv
-import os
-
-# Load .env file (absolute-safe path)
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 from langchain_core.messages import SystemMessage
 from langchain_openai import ChatOpenAI
 
@@ -28,7 +23,7 @@ def multiply(a: int, b: int) -> int:
     return a * b
 
 def divide(a: int, b: int) -> float:
-    """Divide a and b.
+    """Adds a and b.
 
     Args:
         a: first int
@@ -39,7 +34,7 @@ def divide(a: int, b: int) -> float:
 tools = [add, multiply, divide]
 
 # Define LLM with bound tools
-llm = ChatOpenAI(model="gpt-3o")
+llm = ChatOpenAI(model="gpt-4o")
 llm_with_tools = llm.bind_tools(tools)
 
 # System message
