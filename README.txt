@@ -63,3 +63,26 @@ Dynamic breakpoints have an advantage over breakpoints as they can enable, disab
 LESSON 5:
 I learned how to use time travel in LangGraph Studio to go back to previous states of graph execution.
 I used this feature to replay and debug earlier steps, helping me understand how the graph evolved over time.
+
+MODULE 4:
+
+LESSON 1:
+
+I learned how to split a complex task into parallel branches in LangGraph so different sub-tasks run simultaneously.
+I learned to set up and combine these parallel nodes so the graph executes more efficiently and returns a synchronized result.
+
+LESSON 2:
+
+Subgraphs allow you to create and manage different states within
+different parts of your graph 
+I learned how sub-graphs let me reuse smaller workflows inside a larger LangGraph.
+I understood how parent and sub-graphs share or pass state to make complex graphs easier to manage.
+
+LESSON 3:
+I learnt about MapReduce 
+MapReduce is an efficient task breaking down and parallel processing method
+where you take some task split into a bunch of subtasks and do them all in parallel(map phase)
+and then combine the results from the parallel subtasks and bring them together(reduce phase).
+MapReduce can easily handles very large datasets across multiple machines or nodes and is therefore very useful.
+
+LESSON 4:
