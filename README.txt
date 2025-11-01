@@ -79,6 +79,7 @@ I learned how sub-graphs let me reuse smaller workflows inside a larger LangGrap
 I understood how parent and sub-graphs share or pass state to make complex graphs easier to manage.
 
 LESSON 3:
+
 I learnt about MapReduce 
 MapReduce is an efficient task breaking down and parallel processing method
 where you take some task split into a bunch of subtasks and do them all in parallel(map phase)
@@ -86,3 +87,6 @@ and then combine the results from the parallel subtasks and bring them together(
 MapReduce can easily handles very large datasets across multiple machines or nodes and is therefore very useful.
 
 LESSON 4:
+
+I learned how LangGraph can build a lightweight multi-agent research system where AI analysts work on sub-topics in parallel using map-reduce and sub-graphs.
+I understood how human feedback, expert interviews, and customizable report prompts make the research process structured and flexible.
